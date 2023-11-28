@@ -3,11 +3,11 @@ function on() {
        if(name=='On'){
        document.getElementById('on').innerText='Off';
        var on=document.getElementById('ofbolb');
-on.src='onBolb.png';
+on.src='onBolb.webp';
    }
    else{
      document.getElementById('on').innerText='On';
        var on=document.getElementById('ofbolb');
-on.src='ofBolb.png';
+on.src='ofBolb.webp';
    }
 } 
